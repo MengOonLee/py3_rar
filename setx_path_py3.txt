@@ -1,0 +1,1 @@
+setx PATH "C:\Users\Public\py3\venv\Scripts;%PATH%"
