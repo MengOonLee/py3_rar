@@ -6,10 +6,11 @@ call activate
 call python -m pip install --no-cache-dir -U pip
 call pip install --no-cache-dir -U ^
  pip-autoremove wheel build jupyterlab ^
- numpy pandas scipy scikit-learn ^
- matplotlib seaborn dash xgboost ^
  apache-beam[interactive,dataframe] ^
- statsmodels prophet mstrio-py ^
+ numpy scipy pandas pyarrow ^
+ matplotlib seaborn dash ^
+ scikit-learn xgboost statsmodels prophet^
+ openpyxl mstrio-py ^
  torch torchvision torchaudio lightning ^
  tensorflow-cpu tensorflow-probability tensorflow-datasets
 call pip check
