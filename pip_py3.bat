@@ -7,12 +7,13 @@ call python -m pip install --no-cache-dir -U pip
 call pip install --no-cache-dir -U ^
  pip-autoremove wheel build jupyterlab ^
  apache-beam[interactive,dataframe] ^
- numpy scipy pandas pyarrow ^
+ numpy scipy pandas pyarrow networkx ^
  matplotlib seaborn dash ^
  scikit-learn xgboost statsmodels prophet^
  openpyxl mstrio-py ^
  torch torchvision torchaudio lightning ^
- tensorflow-cpu tensorflow-probability tensorflow-datasets
+ tensorflow-cpu tensorflow-probability tensorflow-datasets ^
+ tfp-causalimpact
 call pip check
 call deactivate
 call cd C:\Users\Public
