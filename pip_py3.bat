@@ -12,7 +12,7 @@ call pip install --no-cache-dir -U ^
  scikit-learn xgboost statsmodels prophet^
  openpyxl mstrio-py ^
  torch torchvision torchaudio lightning ^
- tensorflow-cpu tensorflow-probability tensorflow-datasets ^
+ tensorflow-cpu tensorflow-probability[tf] tensorflow-datasets ^
  tfp-causalimpact
 call pip check
 call deactivate
