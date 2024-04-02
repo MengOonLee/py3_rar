@@ -13,7 +13,7 @@ call pip install --no-cache-dir -U ^
  openpyxl mstrio-py ^
  torch torchvision torchaudio lightning ^
  tensorflow-cpu tensorflow-probability[tf] tensorflow-datasets ^
- tfp-causalimpact
+ tfcausalimpact pyod
 call pip check
 call deactivate
 call cd C:\Users\Public
