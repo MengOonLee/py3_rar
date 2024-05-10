@@ -5,13 +5,11 @@ call cd C:\Users\Public\py3\venv\Scripts
 call activate
 call python -m pip install --no-cache-dir -U pip
 call pip install --no-cache-dir -U ^
- pip-autoremove wheel build jupyterlab ^
- numpy pandas pyarrow openpyxl mstrio-py ^
- matplotlib seaborn dash streamlit ^
- scikit-learn xgboost networkx statsmodels prophet ^
- torch torchvision torchaudio lightning ^
- tensorflow-cpu tensorflow-probability[tf] tensorflow-datasets ^
- apache-beam pyod ortools tfcausalimpact
+ pip-autoremove wheel build jupyterlab numpy pandas pyarrow openpyxl ^
+ matplotlib seaborn dash scikit-learn xgboost statsmodels prophet networkx pyod ^
+ apache-beam tf-keras tensorflow-cpu tensorflow-probability ydf tfcausalimpact ^
+ lightning torch torchvision torchaudio torch_geometric ^
+ ortools
 call pip check
 call deactivate
 call cd C:\Users\Public\py3_rar
