@@ -15,6 +15,8 @@ call pip install --no-cache-dir -U ^
 call pip install --no-cache-dir -U ^
  pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv ^
  -f https://data.pyg.org/whl/torch-2.4.0+cpu.html
+call pip install --no-cache-dir -U ^
+ llama-cpp-python huggingface-hub
 call pip check
 call deactivate
 call cd C:\Users\Public\py3_rar
